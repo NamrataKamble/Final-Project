@@ -3,8 +3,8 @@ body {
   background: url('http://cdn.wallpapersafari.com/13/6/Mpsg2b.jpg');
 
   font-family: 'Ubuntu', sans-serif;
+  height: auto;
 
-  height: 20px;
   font-size: 16px;
   color: wheat;
 
@@ -27,7 +27,7 @@ body {
 #logo-img {
 
   width: 185px;
-  height: 150px;
+  height: 155px;
   margin: 45px 30px 10px 30px;
 
   border-radius: 105px;
@@ -228,7 +228,7 @@ body {
 
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-  border: 1px solid orange;
+  border: 1px solid rgb(85, 2, 2);
 }
 
 .navbar-header button.navbar-toggle {
@@ -419,7 +419,10 @@ h3.menu-item-title {
   text-align: center;
 }
 
+div#menu-categories.container-fluid {
+  margin-top: 40px;
 
+}
 
 
 #main-content #myVideo {
@@ -444,6 +447,18 @@ h3.menu-item-title {
 
   }
 
+  div#Tiffin-content.container-fluid {
+    margin-top: 20px;
+  }
+
+  div#menu-categories.container-fluid {
+    margin-top: 40px;
+
+  }
+
+  .login {
+    margin-top: 60px;
+  }
 
 
 }
@@ -453,14 +468,40 @@ h3.menu-item-title {
 
   /* Header */
   #logo-img {
-    background: url('../images/new.') no-repeat;
+    background: url('../images/sm.png') no-repeat;
     width: 100px;
+    height: 120px;
+    margin: 45px 35px 5px 0;
+  }
+
+  div.navbar-header {
     height: 100px;
-    margin: 5px 5px 5px 0;
+
   }
 
   div.tiffin-menu {
     padding-left: 0;
+  }
+
+
+  #collapsable-nav {
+    height: 300px;
+    position: relative;
+
+
+  }
+
+  div#menu-categories.container-fluid {
+    margin-top: 40px;
+
+  }
+
+  div#Tiffin-content.container-fluid {
+    margin-top: 20px;
+  }
+
+  .login {
+    margin-top: 40px;
   }
 
 }
@@ -469,15 +510,25 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
 
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
+
+
+
+  /* .container {
+
+    height: 600px;
+  } */
+
+  div.navbar-header {
+    height: 150px;
   }
 
   header-nav {
     position: relative;
 
+
   }
+
+
 
   .container-fluid #myVideo {
     margin-top: 10px;
@@ -501,6 +552,7 @@ h3.menu-item-title {
 
   /* Header */
   #header-nav {
+
     position: relative;
     height: auto;
   }
@@ -519,7 +571,9 @@ h3.menu-item-title {
 
   }
 
-
+  div.navbar-header {
+    height: 150px;
+  }
 
 
 
@@ -563,7 +617,7 @@ h3.menu-item-title {
   .container-fluid #myVideo {
     margin-top: 10px;
 
-
+    margin-bottom: 40px;
 
 
   }
@@ -649,6 +703,7 @@ h3.menu-item-title {
     margin-top: 20px;
     width: auto;
     height: auto;
+    padding-bottom: 30px;
   }
 
   .col-xxs-12 {

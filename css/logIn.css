@@ -113,24 +113,41 @@ a {
     cursor: pointer;
 }
 
-/*Media Querie*/
-@media only screen and (min-width : 150px) and (max-width : 713px) {
-    .login-form h3 {
-        text-align: center;
-        margin: 0;
 
-    }
 
-    body {
-        margin-top: 0;
-    }
 
-    .sign-up,
-    .no-access {
-        margin: 10px 0;
-    }
-
-    .login-button {
-        margin-bottom: 10px;
+@media (min-width: 1200px) {
+    .login {
+        margin-top: 20px;
     }
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .login {
+        margin-top: 160px;
+    }
+
+    /*Media Querie*/
+    @media only screen and (min-width : 150px) and (max-width : 713px) {
+        .login-form h3 {
+            text-align: center;
+            margin: 0;
+
+        }
+
+
+
+        .sign-up,
+        .no-access {
+            margin: 10px 0;
+        }
+
+        .login-button {
+            margin-bottom: 10px;
+        }
+
+        .login {
+            margin-top: 20px;
+        }
+
+    }
