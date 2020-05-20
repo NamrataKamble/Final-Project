@@ -1,0 +1,670 @@
+body {
+
+  background: url('http://cdn.wallpapersafari.com/13/6/Mpsg2b.jpg');
+
+  font-family: 'Ubuntu', sans-serif;
+
+  height: 20px;
+  font-size: 16px;
+  color: wheat;
+
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 0;
+  border: 0;
+  height: 190px;
+
+
+}
+
+#logo-img {
+
+  width: 185px;
+  height: 150px;
+  margin: 45px 30px 10px 30px;
+
+  border-radius: 105px;
+  background: rgb(241, 180, 12) url('../images/3.png') no-repeat;
+
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: .75;
+  padding-bottom: 20px;
+
+}
+
+
+.container-fluid #myVideo {
+
+  margin-top: 220px;
+  padding-top: 4px;
+}
+
+.fire {
+
+  width: 80%;
+  max-width: auto;
+
+  height: auto;
+
+  background-position: center center;
+  background-size: 1000px 200px;
+  border-radius: 10px;
+  font-family: 'Akronim';
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.fire:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.Blazing {
+  display: inline-block;
+  margin: 0;
+
+  color: rgb(255, 115, 0);
+  font-size: auto;
+  line-height: 50px;
+  min-width: 50px;
+  outline: none;
+  vertical-align: middle;
+
+  text-shadow:
+    0 3px 20px red,
+    0 0 20px red,
+    0 0 10px orange,
+    4px -5px 6px yellow,
+    -4px -10px 10px yellow,
+    0 -10px 30px yellow;
+  animation: 2s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+  0% {
+    text-shadow: 0 3px 20px red, 0 0 20px red,
+      0 0 10px orange,
+      0 0 0 yellow,
+      0 0 5px yellow,
+      -2px -5px 5px yellow,
+      4px -10px 10px yellow;
+  }
+
+  25% {
+    text-shadow: 0 3px 20px red, 0 0 30px red,
+      0 0 20px orange,
+      0 0 5px yellow,
+      -2px -5px 5px yellow,
+      3px -10px 10px yellow,
+      -4px -15px 20px yellow;
+  }
+
+  50% {
+    text-shadow: 0 3px 20px red, 0 0 20px red,
+      0 -5px 10px orange,
+      -2px -5px 5px yellow,
+      3px -10px 10px yellow,
+      -4px -15px 20px yellow,
+      2px -20px 30px rgba(255, 255, 0, 0.5);
+  }
+
+  75% {
+    text-shadow: 0 3px 20px red, 0 0 20px red,
+      0 -5px 10px orange,
+      3px -5px 5px yellow,
+      -4px -10px 10px yellow,
+      2px -20px 30px rgba(255, 255, 0, 0.5),
+      0px -25px 40px rgba(255, 255, 0, 0)
+  }
+
+  100% {
+    text-shadow: 0 3px 20px red, 0 0 20px red,
+      0 0 10px orange,
+      0 0 0 yellow,
+      0 0 5px yellow,
+      -2px -5px 5px yellow,
+      4px -10px 10px yellow;
+  }
+}
+
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+
+  color: rgb(133, 16, 16);
+  text-transform: uppercase;
+  font-size: .5em bold;
+  margin-top: 0px;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navbar-brand span {
+  color: black;
+  padding-top: 0px;
+
+  font-size: 15px;
+
+}
+
+#nav-list {
+  margin-top: 15px;
+}
+
+#nav-list a {
+  color: rgb(75, 5, 5);
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: rgb(211, 211, 211);
+  border-radius: 80%;
+}
+
+#nav-list .active a {
+  background-color: rgb(248, 211, 45);
+  border-radius: 80%;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+#phone a {
+  /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div {
+  /* We Deliver */
+  color: #0b1107;
+  text-align: right;
+  padding-right: 15px;
+
+}
+
+.navbar-header button:hover {
+  background-color: aquamarine;
+
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid orange;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours,
+#address {
+  line-height: 2;
+}
+
+#hours>span,
+#address>span {
+  font-size: 1.3em;
+}
+
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+
+.category-tile {
+  position: relative;
+  /* border: 2px solid #3F0C1F; */
+  overflow: hidden;
+  width: 400px;
+
+  margin: 0 auto 15px;
+  margin-bottom: 50px;
+  opacity: .7;
+
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: bold;
+
+  text-transform: uppercase;
+  background-color: #ffa500;
+  color: hsl(0, 72%, 37%);
+  opacity: .6;
+
+
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 5px black;
+}
+
+
+#menu-categories-title+div {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+h2#menu-categories-title {
+  width: 100%;
+  color: green;
+  font-style: bold;
+  font-size: 45px;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: rgb(255, 213, 44);
+}
+
+.menu-item-description p {
+  color: aliceblue;
+
+  text-align: center;
+
+}
+
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 35px;
+  width: 100%;
+}
+
+.menu-item-tile hr {
+  width: 80%;
+}
+
+.menu-item-tile .menu-item-price {
+  font-size: 1.4em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+
+.menu-item-description {
+  text-align: center;
+}
+
+h3.menu-item-title {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+
+  text-align: center;
+}
+
+
+
+
+#main-content #myVideo {
+  width: 100%;
+  height: auto;
+}
+
+/* END SINGLE CATEGORY PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+
+
+  .navbar-brand h1 {
+    font-size: 2.5em;
+    line-height: 1.1;
+
+  }
+
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* Header */
+  #logo-img {
+    background: url('../images/new.') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+
+  div.tiffin-menu {
+    padding-left: 0;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+
+  header-nav {
+    position: relative;
+
+  }
+
+  .container-fluid #myVideo {
+    margin-top: 10px;
+
+  }
+
+
+  #collapsable-nav {
+    height: 300px;
+    position: relative;
+
+  }
+
+
+
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  /* Header */
+  #header-nav {
+    position: relative;
+    height: auto;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand .Blazing h1 {
+    /* Restaurant name */
+    margin-top: 0;
+    padding-top: 0px;
+    font-size: 1vw;
+    height: 200px;
+
+  }
+
+
+
+
+
+  .navbar-brand p img {
+
+    height: 20px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 1.2em;
+    height: 50PX;
+  }
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn>a {
+    margin-top: 100px;
+    font-size: 1.3em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+  #xs-deliver {
+    margin-top: 15px;
+    font-size: .8em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: white;
+
+  }
+
+  .container-fluid #myVideo {
+    margin-top: 10px;
+
+
+
+
+  }
+
+  #nav-list a:hover {
+    background: green;
+  }
+
+  /* End Header */
+
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0;
+
+  }
+
+  .panel-footer section hr {
+    width: 50%;
+  }
+
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+
+  #menu-tile,
+  #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+
+  .menu-item-description {
+    text-align: center;
+    ;
+
+  }
+
+  div.tiffin-menu {
+    padding-left: 0;
+  }
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  /* Header */
+  .navbar-brand .Blazing h1 {
+    /* Restaurant name */
+    padding-top: 5px;
+
+  }
+
+  /* End Header */
+
+  /* Home page */
+
+  #xs-deliver {
+    margin-top: 15px;
+    font-size: .9em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+  }
+
+  .container-fluid #myVideo {
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+  }
+
+  .col-xxs-12 {
+
+    position: relative;
+
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  div.tiffin-menu {
+    padding-left: 0;
+  }
+
+}
