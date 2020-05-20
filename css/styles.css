@@ -13,12 +13,13 @@ body {
 
 /** HEADER **/
 #header-nav {
-  position: fixed;
+
   width: 100%;
   background-color: transparent;
   border-radius: 0;
   border: 0;
   height: 190px;
+  margin-top: 20px;
 
 
 }
@@ -57,7 +58,7 @@ body {
 
 .container-fluid #myVideo {
 
-  margin-top: 220px;
+  margin-top: 40px;
   padding-top: 4px;
 }
 

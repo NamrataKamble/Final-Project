@@ -4,7 +4,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     background-size: 100% 110%;
     height: 100%;
-    margin-top: 236px;
+    margin-top: 20px;
 
 }
 
@@ -47,6 +47,7 @@ a {
 }
 
 .login-form {
+
     border: .5px solid #fff;
     background: orange;
     border-radius: 10px;
@@ -61,7 +62,7 @@ a {
 
 .login-form {
     box-sizing: border-box;
-    padding-top: 15px;
+    padding-top: 45px;
     padding-bottom: 10%;
     margin: 5% auto;
     text-align: center;
